@@ -70,3 +70,8 @@ ul {
   color: white;
   font-size: 15px;
 }
+#lista2 {
+    background-color: #ff00ea;
+    color: rgb(219, 223, 185);
+    padding: 10px;
+  }
