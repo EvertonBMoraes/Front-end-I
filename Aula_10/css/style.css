@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  /* reset css */
+  box-sizing: border-box;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  font-family: roboto, arial, sans-serif;
+}
+.desconto {
+  color: #000000;
+  background-color: #1cd1b0;
+  height: 38px;
+  width: 100%;
+  font-size: 15px;
+  padding: 10px;
+  position: fixed;
+  z-index: 10;
+}
+h1 {
+  text-decoration: none;
+  color: #000000;
+  background-color: #00669f;
+  height: 101px;
+  width: 100%;
+  font-size: 47px;
+  font-weight: lighter;
+  padding: 38px;
+  margin: 0px;
+  display: block;
+  box-shadow: 0px 4px 10px rgb(128, 128, 128);
+}
+.card {
+  margin-top: 84.99px;
+  margin-bottom: 151px;
+}
+.card__personagem {
+  background-color: #f3f3f3;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 374px;
+  height: 597.01px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-color: black;
+  box-shadow: 0px 6px 5px rgb(128, 128, 128);
+}
+.card__a {
+  position: relative;
+  left: 10%;
+}
+.card__b {
+  position: absolute;
+  left: 60%;
+  top: 187px;
+}
+.card__heart1 {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.card__heart2 {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.card__background {
+  height: 217.81px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card__background1 {
+  background-image: url(../img/batman_background.jpg);
+}
+.card__background2 {
+  background-image: url(../img/arlequina_background.jpg);
+}
+.card__foto {
+  border-radius: 50%;
+  width: 135.43px;
+  position: relative;
+  left: 120px;
+  top: -50px;
+}
+.card__nome {
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: -30px;
+}
+.card__infos {
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 36.335px;
+  position: relative;
+  top: -30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.card__botao {
+  font-size: 15px;
+  text-decoration: none;
+  background-color: #00669f;
+  text-align: center;
+  height: 54.76px;
+  width: 145.34px;
+  padding-top: 18px;
+}
+.card__botao1 {
+  position: relative;
+  left: 80px;
+  top: 20px;
+}
+.card__botao2 {
+  position: relative;
+  left: 120px;
+  top: -13px;
+}
+.rodape {
+  color: white;
+  background-color: #00669f;
+  height: 51px;
+  width: 100%;
+  font-size: 16px;
+  padding: 16px 28px;
+  margin: 0px;
+}
