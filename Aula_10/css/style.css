@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
-  /* reset css */
-  box-sizing: border-box;
-  padding: 0px;
-  border: 0px;
-  margin: 0px;
+  box-sizing: border-box;   /* reset css */
+  border: 0px;              /* reset css */
+  margin: 0px;              /* reset css */
+  padding: 0px;             
   font-family: roboto, arial, sans-serif;
 }
 .desconto {

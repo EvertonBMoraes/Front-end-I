@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box; /* reset css */
+  margin: 0px; /* reset css */
+  border: 0px; /* reset css */
+  font-family: roboto, arial, sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #222222;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 10px black;
+}
+header img {
+  width: 234px;
+  height: 88px;
+}
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+header a {
+  text-decoration: none;
+  color: #f3f3f3;
+}
+body {
+  background-color: #e5e5e5;
+}
+.card {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+.card__delivery {
+  background-image: url(../img/delivery.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 35px 2.5px 35px 19px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+span {
+  color: #fc200c;
+}
+.comprando {
+  color: #f3f3f3;
+}
+.card__cardapio {
+  background-color: #ffffff;
+  width: 100%;
+  margin: 35px 19px 35px 2.5px;
+  box-shadow: 0px 0px 20px #ffffff;
+}
+h2 {
+  text-align: center;
+  color: #fc200c;
+  font-size: 24px;
+  margin-top: 26px;
+  margin-bottom: 58px;
+}
+.card__conteudo {
+  padding-left: 51px;
+  padding-right: 74px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.card__conteudo img {
+  height: 150px;
+}
+.card__top {
+  color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.card__top h3 {
+  font-size: 20px;
+}
+.card__top ol {
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #222222;
+  font-size: 16px;
+  padding-right: 42px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer nav ul {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+footer a {
+  text-decoration: none;
+  color: #f3f3f3;
+}
+footer img {
+  width: 212px;
+  height: 88px;
+}
