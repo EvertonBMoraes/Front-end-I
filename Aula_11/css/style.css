@@ -53,6 +53,7 @@ body {
   background-image: url(../img/delivery.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   width: 100%;
   margin: 35px 2.5px 35px 19px;
   text-align: center;
@@ -89,7 +90,7 @@ h2 {
   gap: 20px;
 }
 .card__conteudo img {
-  height: 150px;
+  height: 200px;
 }
 .card__top {
   color: #222222;
