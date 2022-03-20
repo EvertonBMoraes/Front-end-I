@@ -33,7 +33,15 @@
 
                 <input type="password" name="password" id="password" placeholder="Senha" required>
 
-                <input type="text" name="pais" id="pais" placeholder="País" required>
+                <select name="pais" id="pais" aria-placeholder="País" required>
+          <option value="" disabled selected>Selecione o País...</option>
+          <option value="argentina">Argentina</option>
+          <option value="brasil">Brasil</option>
+          <option value="paraguai">Paraguai</option>
+          <option value="uruguai">Uruguai</option>
+          <option value="venezuela">Venezuela</option>
+          <option value="outro">Outro</option>
+        </select>
 
                 <div class="botoes">
                     <button class="limpar" type="reset">Limpar</button>

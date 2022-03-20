@@ -1,9 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    --cor-fundo-desconto: #1cd1b0;
+    --cor-fundo-destaque:#00669f;
+    --cor-fundo-menu: #001d2d;
+    --cor-fundo-card: #f3f3f3;
+    --cor-fonte-clara: #f3f3f3;
+    --cor-fonte-escura:#000000;
+    --cor-fonte-titulo: #333333;
+    --cor-fundo-botao-azul: #1CD1B0;
+    --cor-fundo-botao-cinza: #888888;
+    --cor-link-destaque:#00669f;
+    --cor-texto-acesso: #222222;
 }
 
 html {
@@ -12,18 +23,18 @@ html {
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: var(--cor-fonte-clara);
 }
 
 header h2 {
-    background-color: #1cd1b0;
+    background-color: var(--cor-fundo-desconto);
     width: 100%;
     height: 38px;
     font-size: 1.5rem;
     padding: 10px;
     position: fixed;
     z-index: 1;
-    color: #000000;
+    color: var(--cor-fonte-escura);
 }
 
 .herois {
@@ -31,7 +42,7 @@ header h2 {
     flex-direction: row;
     align-items: center;
     gap: 20px;
-    background-color: #00669f;
+    background-color: var( --cor-fundo-destaque);
     width: 100%;
     height: 120px;
     padding: 48px 10px 10px 10px;
@@ -71,7 +82,7 @@ main {
     flex-direction: column;
 }
 
-input {
+.formulario input {
     width: 100%;
     height: 60px;
     margin-bottom: 20px;
@@ -99,30 +110,35 @@ button {
 }
 
 .entrar {
-    background-color: #1CD1B0;
-    color: #000000;
+    background-color: var(--cor-fundo-botao-azul);
+    color: var(--cor-fonte-escura);
+    font-family: Karia, Arial, Helvetica, sans-serif;
 }
 
 .formulario a {
-    color: #00669f
+    color:var(--cor-link-destaque);
+    font-family: Karia, Arial, Helvetica, sans-serif;
 }
 
 .formulario p {
     font-size: 2.1rem;
     text-align: center;
+    color: var(--cor-texto-login);
+    font-family: Karia, Arial, Helvetica, sans-serif;
 }
 
 footer {
-    background-color: #00669f;
+    background-color: var(--cor-fundo-destaque);
     width: 100%;
     height: 51px;
-    color: #fff9f9;
+    color: var(--cor-fonte-clara);
     padding: 16px 28px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 100px;
+    margin-top: 110px;
 }
 
 footer ul {
@@ -132,6 +148,7 @@ footer ul {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    color: var(--cor-fonte-clara);
 }
 
 .github img {
