@@ -71,7 +71,7 @@ main {
     flex-direction: column;
 }
 
-input {
+.formulario input {
     width: 100%;
     height: 60px;
     margin-bottom: 20px;
@@ -79,6 +79,20 @@ input {
     font-size: 2rem;
     font-family: Karia, Arial, Helvetica, sans-serif;
     outline: none;
+}
+
+.formulario select {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 2rem;
+    font-family: Karia, Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+.formulario select:invalid {
+    color: gray;
 }
 
 .botoes {
