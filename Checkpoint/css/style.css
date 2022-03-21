@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Roboto&display=swap");
+
+/* fontes utilizadas: 'Caveat' , 'Libre Baskerville' , 'Roboto' */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  --cor-fonte-clara: #f3f3f3;
+  --cor-fonte-escura: #333333;
+  --cor-fundo-cabecalho: #1d1d1d;
+  --cor-fundo-botao: #727272;
+  --cor-fundo-texto: rgb(0 0 0 / 25%);
+}
+html {
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+  color: var(--cor-fonte-clara);
+}
+header {
+  width: 100%;
+  height: 21.3rem;
+  padding: 2rem;
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);  
+  color: var(--cor-fonte-clara);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 9.2rem;
+}
+.cabecalho__conteudo {
+  width: 34rem;
+  height: 14rem;
+  display: flex;
+  flex-direction: row;
+}
+.cabecalho__conteudo img {
+  height: 12rem;
+}
+.cabecalho__texto {
+  padding: 4rem 1rem 1rem 1rem;
+}
+.cabecalho__texto h3 {
+  font-size: 2rem;
+}
+h1 {
+  font-size: 4.5rem;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2.7rem;
+  list-style-type: none;
+  font-size: 2.4rem;
+}
+nav ul li {
+  width: 19.7rem;
+  height: 9.2rem;
+  border-radius: 100px;
+  text-align: center;
+  padding-top: 3.2rem;
+}
+
+
+nav ul li {background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%)}
+nav ul li {
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color:var(--cor-fonte-escura);            
+   display: block;
+ }
+
+ nav ul li:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+.banner {
+  background-image: url(../img/fundo_SP.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 53.2rem;
+}
+
+.banner__texto {
+  padding: 2rem 3rem;
+  text-align: justify;
+  color: var(--cor-fonte-clara);
+  font-size: 2.5rem;
+  background-color: var(--cor-fundo-texto);
+  box-shadow: 6px 8px 5px rgb(0 0 0 / 25%);
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 626px) {
+  html {
+    font-size: 4.7px;
+  }
+  nav ul {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 425px) {
+  html {
+    font-size: 3.8px;
+  }
+  nav ul {
+    flex-wrap: wrap;
+  }
+}
