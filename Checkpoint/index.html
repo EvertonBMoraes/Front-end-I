@@ -11,9 +11,9 @@
 
 <body>
     <header>
-        <div class="cabecalho">
-            <div class="cabecalho__conteudo"><img src="img/brasao_sp.svg" alt="Brasão da Cidade de São Paulo">
-                <div class="cabecalho__texto">
+        <div class="logo" id="logo">
+            <div class="logo__conteudo"><img src="img/brasao_sp.svg" alt="Brasão da Cidade de São Paulo">
+                <div class="logo__texto">
                     <h3>A minha cidade de </h3>
                     <h1>São Paulo</h1>
                 </div>
@@ -21,13 +21,13 @@
         </div>
         <nav>
             <ul>
-                <a href="">
+                <a class="botao" href="#logo">
                     <li>Home</li>
                 </a>
-                <a href="">
+                <a class="botao" href="#curiosidades">
                     <li>Curiosidades</li>
                 </a>
-                <a href="">
+                <a class="botao" href="#video">
                     <li>Vídeo</li>
                 </a>
             </ul>
@@ -48,11 +48,89 @@
                     entretanto, muitos desafios estruturais característicos de grandes metrópoles.</p>
             </div>
         </div>
-        <div class="card_container"></div>
-        <div class="video"></div>
+        <div class="curiosidades">
+            <h2 id="curiosidades">Curiosidades da Cidade</h3>
+                <div class="curiosidades__card_container">
+                    <div class="curiosidades__card">
+                        <p class="curiosidades__titulo">São Paulo já teve ônibus de dois andares</p>
+                        <img src="img/onibus.jpg" alt="foto de um ônibus vermelho">
+                        <p class="curiosidades__texto">Aqueles ônibus vermelhos, muito populares em Londres, já
+                            percorreram as ruas de São Paulo. Em 1987, a Companhia Municipal de Transporte Coletivo
+                            colocou em circulação 11 unidades de ônibus vermelhos de dois andares com capacidade de 112
+                            passageiros. No ano seguinte, mais 26 carros da mesma modalidade passaram a percorrer a
+                            cidade.
+                        </p>
+                    </div>
+                    <div class="curiosidades__card">
+                        <p class="curiosidades__titulo">Tiro ao alvo no Mercadão</p>
+                        <img src="img/marcadao.jpg" alt="foto do mercadão">
+                        <p class="curiosidades__texto">Durante a revolução de 1932, os soldados usavam os vitrais do
+                            Mercado Municipal de São Paulo como treinamento para o tiro ao alvo (que desperdício!). Após
+                            o fim das batalhas, foram necessários mais dois meses de ajustes para que o Mercadão
+                            pudesse, enfim, ser inaugurado no dia 25 de janeiro de 1933.
+                        </p>
+                    </div>
+                    <div class="curiosidades__card">
+                        <p class="curiosidades__titulo">Arena de touradas</p>
+                        <img src="img/touradas.jpg" alt="foto petro e branco de uma tourada">
+                        <p class="curiosidades__texto">Conhece a Praça da República, no centro de São Paulo? É quase que
+                            inacreditável, mas neste mesmo espaço, há aproximadamente 100 anos, funcionava uma arena de
+                            touradas.
+                        </p>
+                    </div>
+                    <div class="curiosidades__card">
+                        <p class="curiosidades__titulo">Quando a Avenida Paulista tinha outro nome</p>
+                        <img src="img/paulista.jpg" alt="foto da avenida paulista">
+                        <p class="curiosidades__texto">Em 1927, após a morte de Carlos de Campos, então governador de
+                            São Paulo, o endereço foi renomeado em sua homenagem. Os paulistanos não gostaram nem um
+                            pouco da mudança e logo depois, no início da década de 1930, o local recebeu novamente seu
+                            nome original: Avenida Paulista.
+                        </p>
+                    </div>
+                    <div class="curiosidades__card">
+                        <p class="curiosidades__titulo">Próxima parada…</p>
+                        <img src="img/estacao_metro.jpg" alt="foto de uma estação de metro">
+                        <p class="curiosidades__texto">Foi entre as estações Jabaquara e Saúde que aconteceu a primeira
+                            viagem de metrô na cidade, em 1972. Depois de dois anos, o trecho Jabaquara – Vila Mariana
+                            começou a receber passageiros também.
+                        </p>
+                    </div>
+                    <div class="curiosidades__card">
+                        <p class="curiosidades__titulo">Bairro da Liberdade antes dos japoneses</p>
+                        <img src="img/bairro_liberdade.jpg" alt="foto do bairro da Liberdade">
+                        <p class="curiosidades__texto">O reduto nipônico de São Paulo era antes morada dos italianos.
+                            Até 1920, foram os europeus que fixaram residência no bairro da Liberdade. A imigração
+                            japonesa só chegou à região na década de 1930, quando as primeiras famílias começaram a se
+                            instalar pelo bairro.
+                        </p>
+                    </div>
+                </div>
+        </div>
+        <div class="video">
+            <div class="video__texto">
+                <h2 id="video">Vídeo</h2>
+            </div>
+            <iframe src="https://www.youtube.com/embed/Sttp_Bmq8Oc" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
     </main>
     <footer>
-        <div class="rodape"></div>
+        <div class="redes">
+            <h2>Rede Sociais</h2>
+        </div>
+        <div class="links">
+            <a class="conjunto"
+                href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiKvLCN_Nf2AhXaiJUCHQ2PBPsQFnoECAMQAQ&url=https%3A%2F%2Fbr.linkedin.com%2Fin%2Feverton-barros-de-moraes-b25310172%3Ftrk%3Dpeople-guest_profile-result-card_result-card_full-click&usg=AOvVaw3t7Qfj5LUwJOMp0k68xQN0"
+                target="_blank" rel="noopener noreferrer">
+                <img src="img/linkedin.png" alt="Logo do Linkedin">
+                <h3>Linkedin</h3>
+            </a>
+            <a class="conjunto" href="https://github.com/EvertonBMoraes" target="_blank" rel="noopener noreferrer">
+                <img src="img/github.png" alt="Logo do GitHub">
+                <h3>GitHub</h3>
+            </a>
+        </div>
     </footer>
 </body>
 
