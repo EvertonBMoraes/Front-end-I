@@ -182,6 +182,7 @@ nav ul {
   width: 1077px;
   height: 534px;
   box-shadow: 6px 8px 5px rgb(0 0 0 / 25%);
+  border-radius: 20px;
 }
 footer {
   width: var(--largura-max);
