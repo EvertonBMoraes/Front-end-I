@@ -24,14 +24,19 @@ header {
   width: 100%;
   height: 21.3rem;
   padding: 2rem;
-  background-color: #FF3CAC;
-  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);  
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
   color: var(--cor-fonte-clara);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 9.2rem;
+  gap: 5rem;
 }
 .cabecalho__conteudo {
   width: 34rem;
@@ -54,11 +59,9 @@ h1 {
 nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
   gap: 2.7rem;
   list-style-type: none;
-  font-size: 2.4rem;
 }
 nav ul li {
   width: 19.7rem;
@@ -66,25 +69,31 @@ nav ul li {
   border-radius: 100px;
   text-align: center;
   padding-top: 3.2rem;
+  font-size: 2.4rem;
+}
+/* Efeito do botão */
+nav ul li {
+  background-image: linear-gradient(
+    to right,
+    #ece9e6 0%,
+    #ffffff 51%,
+    #ece9e6 100%
+  );
+}
+nav ul li {
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: var(--cor-fonte-escura);
+  display: block;
 }
 
-
-nav ul li {background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%)}
-nav ul li {
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color:var(--cor-fonte-escura);            
-   display: block;
- }
-
- nav ul li:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   text-decoration: none;
- }
-
+nav ul li:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
 
 .banner {
   background-image: url(../img/fundo_SP.jpg);
@@ -108,12 +117,15 @@ nav ul li {
   }
 }
 
-@media (max-width: 626px) {
+@media (max-width: 745px) {
   html {
-    font-size: 4.7px;
+    font-size: 4px;
   }
-  nav ul {
-    flex-wrap: wrap;
+  nav ul li {
+    width: 17rem;
+    height: 6rem;
+    padding: 2rem;
+    font-size: 2rem;
   }
 }
 
@@ -121,7 +133,10 @@ nav ul li {
   html {
     font-size: 3.8px;
   }
-  nav ul {
-    flex-wrap: wrap;
+  nav ul li {
+    width: 17rem;
+    height: 6rem;
+    padding: 2rem;
+    font-size: 2rem;
   }
 }
