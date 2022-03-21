@@ -153,9 +153,10 @@ nav ul {
   height: 48px;
 }
 .curiosidades__card img {
-  width: 305px;
+  width: 300px;
   height: 200px;
   border-radius: 10px;
+  box-shadow: 6px 8px 5px rgb(0 0 0 / 25%);
 }
 .curiosidades__texto {
   font-size: 1.8rem;
