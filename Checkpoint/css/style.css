@@ -272,7 +272,7 @@ footer {
     --largura-max: 425px;
   }
   html {
-    font-size: 6px;
+    font-size: 7px;
   }
   header {
     height: 170px;
@@ -309,7 +309,7 @@ footer {
   }
   .curiosidades__card {
     width: 250px;
-    height: 320px;
+    height: 350px;
   }
   .curiosidades__card img {
     width: 200px;
