@@ -284,11 +284,75 @@ footer {
     padding-bottom: 80px;
   }
   .video iframe {
-    width: 800px;
-    height: 450px;
+    width: 750px;
+    height: 422px;
   }
   footer {
     height: 350px;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 8px;
+  }
+  header {
+    height: 170px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .logo__conteudo {
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+  .logo__conteudo img {
+    height: 100px;
+  }
+  nav ul {
+    gap: 50px;
+  }
+  .botao::before {
+    bottom: 25px;
+  }
+  .curiosidades {
+    padding-top: 50px;
+    align-items: center;
+  }
+  .curiosidades h2 {
+    padding-left: 0;
+  }
+  .curiosidades__sobrecard {
+    width: 90%;
+  }
+  .curiosidades__card {
+    height: 450px;
+  }
+  .video {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    align-items: center;
+  }
+  .video h2 {
+    padding-left: 0;
+  }
+  .video iframe {
+    height: 197px;
+    width: 350px;
+  }
+  footer {
+    height: 250px;
+  }
+  .redes h2 {
+    padding: 20px 20px;
+  }
+  .links img {
+    width: 70px;
+    height: 70px;
   }
 }
 
