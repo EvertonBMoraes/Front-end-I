@@ -140,7 +140,7 @@ nav ul li:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 36px;
+  gap: 50px;
   flex-wrap: wrap;
   width: var(--largura-max);
 }
@@ -198,7 +198,7 @@ nav ul li:hover {
 }
 .video iframe {
   align-self: center;
-  width: 80%;
+  width: 1077px;
   height: 534px;
   box-shadow: 6px 8px 5px rgb(0 0 0 / 25%);
   border-radius: 20px;
@@ -256,21 +256,35 @@ footer {
 }
 
 @media (max-width: 1280px) {
-  * {
-    --largura-max: 1280px;
-  }
   html {
     font-size: 9px;
+  }
+  header {
+    height: 170px;
+  }
+  .curiosidades {
+    padding-top: 50px;
   }
   .curiosidade_sobrecard {
     width: 45%;
   }
+  .curiosidades__card {
+    height: 500px;
+  }
+  .video {
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+  .video iframe {
+    width: 820px;
+    height: 460px;
+  }
+  footer {
+    height: 350px;
+  }
 }
 
 @media (max-width: 425px) {
-  * {
-    --largura-max: 425px;
-  }
   html {
     font-size: 7px;
   }
@@ -325,9 +339,9 @@ footer {
   }
   .video iframe {
     height: 180px;
+    width: 320px;
   }
   footer {
-    width: var(--largura-max);
     height: 250px;
   }
   .redes h2{
