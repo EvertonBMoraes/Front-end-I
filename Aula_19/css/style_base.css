@@ -98,12 +98,8 @@ nav ul li a:hover::before {
 }
 
 .social ul li a:hover {
-  transform: scalex(2);
-  background-color: black;
-  transform-origin: left;
-  display: flex;
-  justify-items: flex-end;
-  align-items: flex-end;
+ background: var(--primary-color); 
+ padding: 10px 30px; 
 }
 
 /* Conteudo */
