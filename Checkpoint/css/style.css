@@ -58,6 +58,7 @@ header {
   padding: 40px 1px 1px 1px;
 }
 .logo__texto h3 {
+  padding-left: 10px;
   font-size: 2rem;
   font-family: "Caveat", Arial, Helvetica, sans-serif;
 }
