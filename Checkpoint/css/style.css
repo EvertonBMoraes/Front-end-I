@@ -150,7 +150,7 @@ nav ul li:hover {
   flex-wrap: wrap;
   width: var(--largura-max);
 }
-.curiosidade_sobrecard {
+.curiosidades__sobrecard {
   width: 30%;
   display: flex;
   justify-content: center;
@@ -192,8 +192,8 @@ nav ul li:hover {
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  margin-top: 140px;
-  margin-bottom: 233px;
+  padding-top: 140px;
+  padding-bottom: 233px;
 }
 .video h2 {
   padding-left: 10%;
@@ -271,19 +271,19 @@ footer {
   .curiosidades {
     padding-top: 50px;
   }
-  .curiosidade_sobrecard {
+  .curiosidades__sobrecard {
     width: 45%;
   }
   .curiosidades__card {
     height: 500px;
   }
   .video {
-    margin-top: 50px;
-    margin-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 80px;
   }
   .video iframe {
-    width: 620px;
-    height: 350px;
+    width: 800px;
+    height: 450px;
   }
   footer {
     height: 350px;
@@ -324,7 +324,7 @@ footer {
   .curiosidades h2 {
     padding-left: 0;
   }
-  .curiosidade_sobrecard {
+  .curiosidades__sobrecard {
     width: 90%;
   }
   .curiosidades__card {
@@ -336,16 +336,16 @@ footer {
     height: 100px;
   }
   .video {
-    margin-top: 30px;
-    margin-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 80px;
     align-items: center;
   }
   .video h2 {
     padding-left: 0;
   }
   .video iframe {
-    height: 220px;
-    width: 390px;
+    height: 197px;
+    width: 350px;
   }
   footer {
     height: 250px;
