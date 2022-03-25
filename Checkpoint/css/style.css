@@ -122,6 +122,10 @@ nav ul li:hover {
   font-size: 5rem;
   font-weight: bolder;
 }
+.banner__texto span{
+  font-weight: bolder;
+  color: var(--cor-fonte-escura);
+}
 .curiosidades {
   display: flex;
   flex-direction: column;
@@ -136,7 +140,7 @@ nav ul li:hover {
   color: var(--cor-fonte-clara);
   font-family: "Caveat", Arial, Helvetica, sans-serif;
 }
-.curiosidades__card_container {
+.curiosidades__containercard {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -309,7 +313,7 @@ footer {
     gap: 50px;
   }
   .botao::before {
-    bottom: 17px;
+    bottom: 20px;
   }
   .curiosidades {
     padding-top: 50px;
