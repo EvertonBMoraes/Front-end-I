@@ -5,7 +5,5 @@
 
 https://evertonbmoraes.github.io/FrontEnd/Checkpoint/
 
-Checkpoint/
-<a>
-Checkpoint/
-</a>
+
+<li><a href="Checkpoint/">Checkpoint/</a></li>
